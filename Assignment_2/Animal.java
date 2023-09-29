@@ -1,5 +1,35 @@
-package Assignment_1.Assignment_2;
+public abstract class Animal{
+    private int id;
+    private String name;
+    private int age;
 
-public class Animal {
-    
+    public Animal(int id, String name, int age){  // constructor do not have any return type
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
+    public int getId(){
+        return id;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    abstract void makeSound();
+
 }
