@@ -4,4 +4,4 @@
 ## Class Diagram: 
 
 
-<img src="../images/pet.png">
+<img src="../images/pet.png" height="400" width="400">
