@@ -52,4 +52,5 @@ public static void main(String[] args) {
 ```
 
 ## UML Class Diagram of Composite Design Pattern
-![Composite Design Pattern UML Class Diagram](../images/Composite.png.drawio.png)
+
+<img src="../images/Composite.png">
