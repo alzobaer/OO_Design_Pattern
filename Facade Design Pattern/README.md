@@ -40,7 +40,7 @@ This project follows the facade design pattern, which simplifies the interaction
 
 ### UML Diagram
 
-<img src="../images/pet.png" height="400" width="550">
+<img src="../images/facade.png" height="400" width="550">
 
 The UML diagram illustrates the relationships and structure of the classes and interfaces in this project.
 
