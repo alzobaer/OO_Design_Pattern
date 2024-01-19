@@ -6,7 +6,7 @@ This Java program demonstrates the concept of multiple inheritance using interfa
 
 Write a Java program that demonstrates multiple inheritance through interfaces. The program uses an `Animal` class, which implements three interfaces (`AnimalEat`, `AnimalMove`, and `AnimalSleep`). The goal is to illustrate the ability to inherit behaviors from multiple sources.
 
-
 ## UML Class Diagram
 
-<img src="../images/Multiple_Inheritance_1.png" height="350" width="700">
+![UML Class Diagram](../../images/Multiple_Inheritance_1.png)
+
