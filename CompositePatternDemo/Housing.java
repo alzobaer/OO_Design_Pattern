@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Housing implements IStructure {
     private ArrayList< IStructure > structures;
     private String address;
+    
     public Housing(String address) {
         this.structures = new ArrayList < IStructure > ();
         this.address = address;
@@ -18,17 +19,14 @@ public class Housing implements IStructure {
         return this.structures.get(componentNumber);
     }
     public void location() {
-        System.out.println("You are currently in " +
-                this.getName() + ". It has ");
+        System.out.println("You are currently in " + this.getName() + ". It has ");
         for (IStructure struct: this.structures)
             System.out.println(struct.getName());
     }
     public void enter() {
-        System.out.println("You have entered the " +
-                this.getName());
+        System.out.println("You have entered the " + this.getName());
     }
     public void exit() {
-        System.out.println("You have left the " +
-                this.getName());
+        System.out.println("You have left the " + this.getName());
     }
 }
