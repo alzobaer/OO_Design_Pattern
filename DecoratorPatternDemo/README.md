@@ -1,14 +1,23 @@
-# Decorator Pattern Example
+# Decorator Design Pattern Example
 
 ## Overview
 
-This Java program demonstrates the Decorator design pattern, which is a structural pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
+This Java program demonstrates the Decorator design pattern, which is a structural pattern that allows additional behaviors to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
 
 In this example, we have a `WebPage` interface representing the component, a concrete component `BasicWebPage`, and two decorators `AuthorizedWebPage` and `AuthenticatedWebPage`. These decorators add authorization and authentication functionality to the basic web page.
 
 ## UML Class Diagram
 
 ![UML Class Diagram](../images/decorator_pattern.png)
+
+## Implementation of this design pattern with Java can be broken down into steps.
+1. Design the component interface.
+2. Implement the interface with your base concrete
+component class.
+3. Implement the interface with your abstract decorator
+class.
+4. Inherit from the abstract decorator and implement the
+component interface with concrete decorator classes.
 
 
 ## Code Explanation
